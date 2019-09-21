@@ -1,3 +1,4 @@
+// VS2010
 // Вариант 16
 #include "stdafx.h"
 #include <iomanip>
