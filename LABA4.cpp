@@ -28,7 +28,7 @@ int main(){
 			cout << matrix[j][i] << "  ";
 			if(j == 2){
 				cout << endl;
-			}else{};
+			};
 		};
 	};
 
