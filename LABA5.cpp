@@ -51,9 +51,12 @@ int read_data(){
 	ifstream my_file1;
 	my_file1.open("out.txt");
 
-	while(getline(my_file1, line)){
-		cout << line << endl;
+	if(my_file1.is_open()){
+		while(getline(my_file1, line)){
+			cout << line << endl;
+		}
 	}
+	else{cout << "ERROR: FILE CANNOT BE OPEN !";}
 
 	my_file1.close();
 	getch();
