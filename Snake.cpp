@@ -86,6 +86,7 @@ void input() {
 			break;
 		case 'x':
 			game_over = true;
+			system("color c");
 			cout << "GAME OVER !!!" << endl;
 			break;
 		}
@@ -141,6 +142,9 @@ void logic() {
 	for (int i = 0; i < n_tail; i++) {
 		if (tail_x[i] == x && tail_y[i] == y) {
 			game_over = true;
+			system("color c");
+			cout << "GAME OVER !!!" << endl;
+
 		}
 	}
 	//действия при съедании фрукта
